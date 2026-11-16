@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Astro Jetpack</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <div id="jogo">
+
+
+    <img class="nuvem" id="nuvem1" src="imagens/nuvens.png">
+    <img class="nuvem" id="nuvem2" src="imagens/nuvens.png">
+
+
+    <div class="cano cima" id="cima1"></div>
+    <div class="cano baixo" id="baixo1"></div>
+    <div class="cano cima" id="cima2"></div>
+    <div class="cano baixo" id="baixo2"></div>
+
+    <img id="moeda" src="imagens/moeda.png">
+    <img id="astronauta" src="imagens/astronauta.gif">
+
+
+    <div id="hud">
+      <span id="placar">🪙 x 0</span>
+      <span id="tempo">TIME: 60</span>
+    </div>
+
+    <div id="inicio" class="tela">
+      <img id="logo" src="imagens/logo.png">
+      <p>Pressione ESPAÇO ou clique para voar!</p>
+    </div>
+
+    <div id="fim" class="tela escondido">
+      <img id="gameover" src="imagens/gameover.png">
+      <p id="mensagem"></p>
+      <button id="botao">REINICIAR</button>
+    </div>
+
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
