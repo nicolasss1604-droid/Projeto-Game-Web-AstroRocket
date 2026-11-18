@@ -1,4 +1,4 @@
-// ===== Pegando os elementos do HTML =====
+
 let astronauta = document.getElementById("astronauta");
 let moeda = document.getElementById("moeda");
 let placar = document.getElementById("placar");
